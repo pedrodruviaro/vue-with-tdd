@@ -1,7 +1,9 @@
 <script setup>
-import SignUpView from '@/views/SignUpView/SignUpView.vue'
+import SignUpView from '@/views/SignUpView/SignUpView.vue';
 </script>
 
 <template>
-  <SignUpView />
+  <main class="container">
+    <SignUpView />
+  </main>
 </template>
